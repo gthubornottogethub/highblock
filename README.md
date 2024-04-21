@@ -4,7 +4,7 @@
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
-A simple sports blog website. It's supposed to be something like spielverlagerung, offering news and analysis of Football tactics. This is a MERN stack project that I built after doing [Coding with Dawid's](https://www.youtube.com/@CodingWithDawid) tutorial. I used a similar set up, but expanded the site to include differnt categories and added [pagination](https://medium.com/@iamusamasattar/how-to-implement-scroll-pagination-in-mern-application-f253f170754f). 
+A simple sports blog website. It's supposed to be something like spielverlagerung, offering news and analysis of Football tactics. This is a MERN stack project that I built after doing [Coding with Dawid's](https://www.youtube.com/@CodingWithDawid) tutorial.The project has a similar setup, but it includes different sections, and has [pagination](https://medium.com/@iamusamasattar/how-to-implement-scroll-pagination-in-mern-application-f253f170754f) to navigate through older entries. 
 
 # How to Run
 
