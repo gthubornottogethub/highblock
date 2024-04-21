@@ -1,0 +1,166 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+.biotitle {
+  text-align: right;
+  font-size:10px;
+  color:rgb(235, 235, 235);
+  margin-top: 40px; 
+  font-family: 'Amiri', serif;
+}
+
+.biotext {
+  text-align: right;
+  font-size:5px;
+  color:rgb(235, 235, 235);
+  margin-top: 40px; 
+  font-family: 'Amiri', serif;
+}
+
+/* .postunit { 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  color: white;
+  font-family: 'Amiri', serif;
+} */ 
+
+/* .postunit {
+  display: flex;
+  margin-top: 60px;
+  margin-left: auto;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  padding: 30px; 
+  border: 1px solid rgb(53, 52, 54); 
+  border-radius: 8px; 
+  font-family: 'Amiri', serif;
+  box-shadow: 5px 5px 10px 1px #000000;
+  direction: rtl; 
+
+  .postunitcontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 60px;
+  justify-content:center;
+} */ 
+
+
+
+  .postunitcontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 60px;
+  justify-content: end; /* Align items at the start of the grid */
+  }
+  
+  /* Ensure that items span full width when there are only two items */
+  .postunitcontainer > .postunit:nth-child(2n) {
+    grid-column-end: span 2;
+  }
+
+.btnnews {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btnnews:after {
+  content: "";
+  background-color: #9a78f7;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.btnnews:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .btnnews {
+    padding: 13px 50px 13px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.postunit h1, .postunit p {
+  color: rgb(126, 126, 126);
+  
+}
+
+.postunit {
+  box-sizing: border-box;
+  margin-top: 60px;
+  padding: 20px;
+  border: 1px solid rgb(87, 85, 85);
+  text-align: right;
+  border-radius: 8px;
+  font-family: 'Amiri', serif;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+  } */

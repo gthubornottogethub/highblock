@@ -1,0 +1,10 @@
+
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "title": "هل يلحق زيزو بمواجهة دريمز الغاني؟",
+  "content": "كشف مصدر بالجهاز الطبي للزمالك، عن موقف أحمد مصطفى زيزو، لاعب وسط الفريق من مواجهة دريمز الغاني يوم الأحد المقبل، في",
+  "imageLink":"https://img.kooora.com/?i=mhmed_aziz%2fjanuary%2f1%2f1%2f2019_january_koo_1%2fkoo_aziz_2024%2fzizo+ahli2.jpg",
+  "category":"news"
+}
